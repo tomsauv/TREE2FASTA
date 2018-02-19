@@ -1,4 +1,8 @@
 
+TREE2FASTA allows for the interactive, flexible and rapid sorting of FASTA sequences from clades of interest with minimal user efforts via the popular tree-viewer FigTree (see our tutorial).
+
+To run TREE2FASTA you need the FASTA file you use to build your exploratory tree, and the edited version of that tree (for color and/or annotation) saved from FigTree 
+
 # TREE2FASTA usage
 
 1 - Navigate with terminal to the desired working directory
@@ -23,7 +27,7 @@ perl   TREE2FASTA.pl
 
 TREE file:
 
-Andrew Rambaut’s FigTree is required to edit exploratory trees as input for TREE2FASTA (see our tutorial) 
+Andrew Rambaut’s FigTree is required to edit exploratory trees as input for TREE2FASTA (see our tutorial).
 FigTree is available at http://tree.bio.ed.ac.uk/software/figtree
 
 FASTA file:
