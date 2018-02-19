@@ -1,4 +1,5 @@
-# TREE2FASTA
+
+# TREE2FASTA usage
 
 1 - Navigate with terminal to the desired working directory
 
@@ -17,3 +18,19 @@ perl   TREE2FASTA.pl   example_tree.tre   example_fasta.fas
 To see command line usage for TREE2FASTA, type:
 
 perl   TREE2FASTA.pl
+
+# Input
+
+TREE file:
+
+Andrew Rambaut’s FigTree is required to edit exploratory trees as input for TREE2FASTA (see our tutorial) 
+FigTree is available at http://tree.bio.ed.ac.uk/software/figtree
+
+FASTA file:
+
+FASTA sequence names in the FASTA file should match those in the exploratory tree (newick string).   
+We recommend using the RAxML tree-building program, which will preserve the sequence header format from FASTA input to Newick string output.   
+
+# Perl version
+
+TREE2FASTA.pl was written in Perl v5.24.0 with basic syntax and does not require the installation of specific modules to run
