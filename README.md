@@ -29,7 +29,7 @@ perl   TREE2FASTA.pl
 
 TREE file:
 
-Andrew Rambaut’s FigTree is required to edit exploratory trees as input for TREE2FASTA (see our tutorial).
+Andrew Rambaut’s FigTree is required to edit exploratory trees as input for TREE2FASTA (see our [tutorial](Tutorial.pdf)).
 FigTree is available at http://tree.bio.ed.ac.uk/software/figtree
 
 FASTA file:
