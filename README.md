@@ -1,7 +1,9 @@
 
-TREE2FASTA allows for the interactive, flexible and rapid sorting of FASTA sequences from clades of interest with minimal user efforts via the popular tree-viewer FigTree (see our tutorial).
+TREE2FASTA allows for the interactive, flexible and rapid sorting of FASTA sequences from clades of interest with minimal user efforts via the popular tree-viewer FigTree.
 
 To run TREE2FASTA you need the FASTA file you use to build your exploratory tree, and the edited version of that tree saved from FigTree (edited for color and/or annotation).
+
+See our tutorial [here](tutorial.pdf)
 
 # TREE2FASTA usage
 
