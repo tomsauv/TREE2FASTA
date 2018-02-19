@@ -11,7 +11,7 @@ See our tutorial [here](Tutorial.pdf)
 
 cd   path_to_working_directory
 
-Place TREE2FASTA.pl, the edited tree file (FigTree’s NEXUS) and the FASTA file in this working directory (or indicate the paths to the location of the script and files in the command line). 
+Place TREE2FASTA.pl, the edited tree file and the FASTA file in this working directory (or indicate the paths to the location of the script and files in the command line). 
 
 2- Run TREE2FASTA as follows:
 
