@@ -9,17 +9,17 @@ See our FigTree tutorial [here](Tutorial.pdf)
 
 # TREE2FASTA usage
 
-1 - Navigate with terminal to the desired working directory
+**1) Navigate with terminal to the desired working directory**
 
 cd   path_to_working_directory
 
 Place TREE2FASTA.pl, the edited tree file and the FASTA file in this working directory (or indicate the paths to the location of the script and files in the command line). 
 
-2- Run TREE2FASTA as follows:
+**2) Run TREE2FASTA as follows:**
 
 perl   TREE2FASTA.pl   tre_file_name   fasta_file_name 
 
-Example command line with supplementary files provided
+**Example command line with supplementary files provided**
 
 perl   TREE2FASTA.pl   example_tree.tre   example_fasta.fas
 
@@ -29,15 +29,15 @@ perl   TREE2FASTA.pl
 
 # Input
 
-TREE file:
+**TREE file:**
 
 Andrew Rambaut’s FigTree is required to edit exploratory trees as input for TREE2FASTA (see our [tutorial](Tutorial.pdf)).
 FigTree is available at http://tree.bio.ed.ac.uk/software/figtree
 
-FASTA file:
+**FASTA file:**
 
 FASTA sequence names in the FASTA file should match those in the exploratory tree (newick string).   
-We recommend using the RAxML tree-building program, which will preserve the sequence header format from FASTA input to Newick string output.   
+We recommend using the RAxML tree-building program, which will preserve the sequence header format from FASTA input to Newick string output. Some support is available to correct character discrepancy for tree files saved from MEGA (presence/absence of underscore characters in sequence names). TREE2FASTA will print headers discrepancies to help troubleshooting.
 
 # Perl version
 
