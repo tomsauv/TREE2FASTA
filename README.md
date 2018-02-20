@@ -3,7 +3,7 @@ TREE2FASTA allows for the interactive, flexible and rapid sorting of FASTA seque
 
 To run TREE2FASTA you need the FASTA file you use to build your exploratory tree, and the edited version of that tree saved from FigTree (with taxa edited for color and/or annotation).
 
-![Screenshot](img4git.png)
+![Screenshot](figs/img4git.png)
 
 See our FigTree tutorial [here](Tutorial.pdf)
 
@@ -44,7 +44,7 @@ We recommend using the RAxML tree-building program, which will preserve the sequ
 
 TREE2FASTA can sort FASTA data from 1000+ sequence trees in seconds.
 
-![Screenshot](bigtrees.png)
+![Screenshot](figs/bigtrees.png)
 
 # Perl version
 
