@@ -42,7 +42,7 @@ We recommend using the RAxML tree-building program, which will preserve the sequ
 
 **Size:**
 
-TREE2FASTA can sort FASTA data from 1000+ sequences exploratory trees in seconds.
+TREE2FASTA can sort FASTA data from 1000+ sequence trees in seconds.
 
 ![Screenshot](bigtrees.png)
 
@@ -54,4 +54,7 @@ TREE2FASTA.pl was written in Perl v5.24.0 with basic syntax and does not require
 
 TREE2FASTA can be run on Linux, Mac or Windows OS with Perl installed. 
 
+# Citation
+
+Sauvage T, Plouviez P, Schmidt WE, Fredericq S. TREE2FASTA: A flexible Perl script for batch extraction of FASTA sequences from exploratory phylogenetic trees. BMC Research Note (in review)
   
