@@ -43,6 +43,7 @@ We recommend using the RAxML tree-building program, which will preserve the sequ
 **Size:**
 
 TREE2FASTA can sort FASTA data from 1000+ tips/sequence exploratory trees in seconds.
+
 ![Screenshot](bigtrees.png)
 
 # Perl version
