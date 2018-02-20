@@ -5,7 +5,7 @@ To run TREE2FASTA you need the FASTA file you use to build your exploratory tree
 
 ![Screenshot](figs/img4git.png)
 
-See our FigTree tutorial [here](Tutorial.pdf)
+See our FigTree tutorial [here](FigTree_Tutorial.pdf)
 
 # TREE2FASTA usage
 
@@ -32,7 +32,7 @@ perl   TREE2FASTA.pl
 
 **TREE file:**
 
-Andrew Rambaut’s FigTree is required to edit exploratory trees as input for TREE2FASTA (see our [tutorial](Tutorial.pdf)).
+Andrew Rambaut’s FigTree is required to edit exploratory trees as input for TREE2FASTA (see our [tutorial](FigTree_Tutorial.pdf)).
 FigTree is available at http://tree.bio.ed.ac.uk/software/figtree
 
 **FASTA file:**
