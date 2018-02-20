@@ -40,6 +40,17 @@ FigTree is available at http://tree.bio.ed.ac.uk/software/figtree
 FASTA sequence names in the FASTA file should match those in the exploratory tree (newick string).   
 We recommend using the RAxML tree-building program, which will preserve the sequence header format from FASTA input to Newick string (tree) output. Some support is available to correct character discrepancy for newick strings (trees) saved from MEGA (presence/absence of underscore characters in sequence names). TREE2FASTA will print headers discrepancies to help any troubleshooting.
 
+**Size:**
+
+TREE2FASTA can sort FASTA data from 1000+ tips/sequence exploratory trees in seconds.
+![Screenshot](bigtrees.png)
+
 # Perl version
 
 TREE2FASTA.pl was written in Perl v5.24.0 with basic syntax and does not require the installation of specific modules to run
+
+# OS
+
+TREE2FASTA can be run on Linux, Mac or Windows OS with Perl installed. 
+
+  
