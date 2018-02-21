@@ -62,4 +62,4 @@ Sauvage T, Plouviez P, Schmidt WE, Fredericq S. TREE2FASTA: A flexible Perl scri
 
 Script:
 
-![DOI](https://zenodo.org/badge/122100035.svg)](https://zenodo.org/badge/latestdoi/122100035)
+[![DOI](https://zenodo.org/badge/122100035.svg)](https://zenodo.org/badge/latestdoi/122100035)
