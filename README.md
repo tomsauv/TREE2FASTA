@@ -38,7 +38,7 @@ FigTree is available at http://tree.bio.ed.ac.uk/software/figtree
 **FASTA file:**
 
 FASTA sequence names in the FASTA file should match those in the exploratory tree (newick string).   
-We recommend using the RAxML tree-building program, which will preserve the sequence header format from FASTA input to Newick string (tree) output. Some support is available to correct character discrepancy for newick strings (trees) saved from MEGA (presence/absence of underscore characters in sequence names). TREE2FASTA will print headers discrepancies to help any troubleshooting.
+We recommend using the RAxML tree-building program, which will preserve the sequence header format from FASTA input to Newick string (tree) output. Some support is available to correct character discrepancies found in newick strings saved from MEGA (presence/absence of underscore characters in sequence names). TREE2FASTA will print headers discrepancies to help any troubleshooting.
 
 **Size:**
 
