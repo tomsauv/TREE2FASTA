@@ -56,7 +56,7 @@ TREE2FASTA can be run on Linux, Mac or Windows OS with Perl installed.
 
 # Citation
 
-Sauvage T, Plouviez P, Schmidt WE, Fredericq S. TREE2FASTA: A flexible Perl script for batch extraction of FASTA sequences from exploratory phylogenetic trees. BMC Research Note (accepted)
+Sauvage T, Plouviez P, Schmidt WE, Fredericq S. TREE2FASTA: A flexible Perl script for batch extraction of FASTA sequences from exploratory phylogenetic trees. BMC Research Note (accepted). DOI:10.1186/s13104-018-3268-y.
 
 Associated script version:
 
