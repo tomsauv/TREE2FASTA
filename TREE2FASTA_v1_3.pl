@@ -171,21 +171,21 @@ while (my $line3=<TREESAN>) {
 	$j++;
 	}
 	elsif ($line3=~/\t'(.+)'\[&!name="(.+)"\]/){
-        print PARSEDTREEFILE "\>","$1","\t","NOCOLOR","_","$2","\n";
+        print PARSEDTREEFILE "\>","$1","\t","NOCOLR","_","$2","\n";
 	$j++;
 	}
 	elsif ($line3=~/\t(.+)\[&!name="(.+)"\]/){
-        print PARSEDTREEFILE "\>","$1","\t","NOCOLOR","_","$2","\n";
+        print PARSEDTREEFILE "\>","$1","\t","NOCOLR","_","$2","\n";
 	$j++;
 	}
 	elsif ($line3=~/\ttaxlabels/) {				# This gets rid of the 'taxlabels' line to avoid pushing it in the blank_labels array as well
 	}
 	elsif ($line3=~/\t'(.+)'/) {				# This gets labels with no info appended (i.e. no color & no annotation)
-	print PARSEDTREEFILE "\>","$1","\t","NOCOLOR","_","NONAME","\n";
+	print PARSEDTREEFILE "\>","$1","\t","NOCOLR","_","NONAME","\n";
 	$j++;
 	}	
 	elsif ($line3=~/\t(.+)/) {				# This also gets labels with no info appended
-	print PARSEDTREEFILE "\>","$1","\t","NOCOLOR","_","NONAME","\n";
+	print PARSEDTREEFILE "\>","$1","\t","NOCOLR","_","NONAME","\n";
 	$j++;
 	}	
 }
@@ -652,10 +652,10 @@ foreach my $infile(@filex1){
 	}
 }
 
-if ($filecount1==1 && $filename1 eq 'NOCOLOR'){
+if ($filecount1==1 && $filename1 eq 'NOCOLR'){
 	unlink("summary_color.txt");
 	unlink("summary_combo.txt");
-	unlink("FASTA_by_color_/NOCOLOR.fas");
+	unlink("FASTA_by_color_/NOCOLR.fas");
 	rmdir("FASTA_by_color_");
 	opendir DIRECTORY, "./FASTA_by_combo_" or die "Could not open DIRECTORY:$!\n";
 	my @filey=readdir(DIRECTORY);
