@@ -26,7 +26,7 @@ See our FigTree tutorial [here](FigTree_Tutorial.pdf)
 
 **To see command line usage for TREE2FASTA, type:**
 
-perl   TREE2FASTA.pl
+*perl   TREE2FASTA.pl*
 
 # Input
 
