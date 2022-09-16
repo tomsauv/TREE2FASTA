@@ -21,7 +21,7 @@ cd   path_to_working_directory
 **2) Run TREE2FASTA as follows:**
 
 ```
-perl   TREE2FASTA.pl   tre_file_name   fasta_file_name
+perl   TREE2FASTA.pl   tree_file_name   fasta_file_name
 ``` 
 
 **Example command line with example files provided**
